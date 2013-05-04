@@ -9,9 +9,9 @@ $(document).ready(function(){
 			var nom = $('#regNom').val();
 			var email = $('#regMail').val();
 			var tel = $('#regTel').val();
-			var foto= $('regFoto').attr('rel');
+			var foto= $('#regFoto').attr('rel');
 			if(nom != '' && email != '' && tel != '' && foto != undefined && foto != ''){
-				enviarRegistro(nom, tel, email, foto);
+				enviarRegistro(nom, email, tel, foto);
 			}else{
 					navigator.notification.alert('Todos los campos son requeridos', null, 'Error de Registro', 'Aceptar');
 				}
