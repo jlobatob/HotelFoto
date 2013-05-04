@@ -1,5 +1,5 @@
 //Servidor
-function enviarRegistro(nombre,telefono,email, foto){
+function enviarRegistro(nombre, telefono, email, foto){
 	$.ajax({
 		type: "POST",
 		url: "http://igitsoft.com/pgtest.php",

@@ -12,7 +12,7 @@
             options.params = params;
 
             var ft = new FileTransfer();
-            ft.upload(imageURI, "http://igitsoft.com/pgtest.php", function(r)
+            ft.upload(foto, "http://igitsoft.com/pgtest.php", function(r)
 				{ navigator.notification.confirm("Datos Guardos Satisfactoriamente\n"+disp	()['platform'] + '\n' + r.response, function(botones){
 				switch(botones){
 					case 1:
