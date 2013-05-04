@@ -7,7 +7,7 @@ $(document).ready(function(){
 			});
 		$('#regEnviar').tap(function(){
 			var nom = $('#regNom').val();
-			var email = $('#regEmail').val();
+			var email = $('#regMail').val();
 			var tel = $('#regTel').val();
 			var foto= $('regFoto').attr('rel');
 			if(nom != '' && email != '' && tel != '' && foto != undefined && foto != ''){
